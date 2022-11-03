@@ -1,0 +1,49 @@
+body {
+    background: rgb(0, 0, 0);
+    color: white;
+    height: 100%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ;
+}
+
+.div-pai {
+    text-align: center;
+    width: 800px;
+    margin: 30px auto;
+}
+
+h1 {
+    font-size: 75px;
+    color: rgb(255, 197, 89);
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+#segundos, #milesimos {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+button {
+    margin: 30px 10px;
+    padding: 20px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid rgb(255, 197, 89);
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid rgb(185, 127, 19);
+    transition: 0.8s;
+    color: rgb(185, 127, 19);
+}
